@@ -1,0 +1,71 @@
+<!DOCTYPE htm>
+<html id="htmlEntire">
+<head>
+<title> Create Event </title>
+<meta charset+"UTF-8"/>
+
+<link rel="stylesheet" type="text/css" href="css/createE.css"/>
+<link rel="stylesheet" type="text/css" href="css/tabselector.css"/>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="js/createE.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ 
+<script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
+</head> 
+<body>
+  <div id="content">
+      
+  <div><img src="images/logo.jpeg" alt="logo"></div>
+  <div id = "adminPanel"> 
+ <button id="createE" type="button">Create Event</button>
+  <button id="acceptR" type="button">Requests</button>
+
+  </div>
+ </div>
+
+
+ <div id="tabselector">
+                <ul id="tabs">
+                    <li id="tab1">News</li>
+                    <li id="tab2">Upcoming Events</li>
+                    <li id="tab3">Event Requests</li>
+                    <li id="tab4">Logout</li>
+
+                </ul>
+                
+
+  </div> <!--End of div tab selector -->
+
+    <div id="cE"> 
+      <span id="wrongR"> </span>
+      <span id="goodR"> </span>
+    
+      <p>Name</p>
+      <input id="nameEvent" type="text"/> 
+    
+      <p >Location</p>
+      <input id="eventLoc" type="text"/> 
+    
+      <p>Date</p>
+    <input type="text" id="datepicker"> <br><br>
+    
+    <button id="creatEventB" type="button">Create</button>   
+
+
+</div>
+  
+
+            
+
+</body>    
+
+</html>

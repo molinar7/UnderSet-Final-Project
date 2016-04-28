@@ -1,0 +1,86 @@
+#htmlEntire{
+  
+background-color: black;
+font-weight: bold;
+
+color: white;
+}
+
+
+#content img {
+    position: relative;
+    left: 42%;
+    top: 30;
+    width:250px; 
+    height: auto
+}
+
+
+
+#adminPanel{
+	position: relative;
+    left: 80%;
+    top: -200;
+
+
+}
+
+#createE{
+	
+	background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+#acceptR{
+	
+	background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+     font-size: 14px;
+
+}
+
+
+
+#tableDiv{
+
+    position: relative;
+    left: 25%;
+    top: 150;
+    width: 50%;
+
+}
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 4px solid gray;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 5px;
+}
+
+th{
+    width:25%;
+    font-size: 18px;
+}
+
+td{
+    width:25%;
+    font-size: 18px;
+}
+
+
+
+

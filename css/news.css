@@ -1,0 +1,56 @@
+#htmlEntire{
+  
+background-color: black;
+font-weight: bold;
+font-family:cursive;
+color: white;
+}
+
+
+#content img {
+    position: relative;
+    left: 42%;
+    top: 30;
+    width:250px; 
+    height: auto
+}
+
+#idN{
+
+	position: relative;
+	right: 7%;
+    
+    top: 100;
+
+}
+
+#adminPanel{
+	position: relative;
+    left: 80%;
+    top: -200;
+
+
+}
+
+#createE{
+	
+	background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+#acceptR{
+	
+	background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+     font-size: 14px;
+
+}

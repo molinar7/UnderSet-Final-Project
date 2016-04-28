@@ -1,0 +1,31 @@
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 150%;
+  height: auto;
+}
+
+
+
+.next {
+  position: relative;
+  top: 340;
+  left: 73%;
+}
+
+.prev {
+  position: relative;
+  top: 340;
+  left: 35%;
+}

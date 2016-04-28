@@ -1,0 +1,103 @@
+#htmlEntire{
+  
+background-color: black;
+font-weight: bold;
+font-family:  Charcoal, sans-serif;
+color: white;
+}
+
+
+#content img {
+    position: relative;
+    left: 42%;
+    top: 10;
+    width:250px; 
+    height: auto
+}
+
+#choose_event{
+
+	position: relative;
+	
+    left: 35%;
+    top: 140;
+
+}
+
+#contact_number{
+
+	position: relative;
+	
+    left: 55%;
+    top: 75;
+}
+
+#div_textarea{
+	position: relative;
+	
+    left: 35%;
+    top: 95;
+}
+
+#sumbit_request{
+	position: relative;
+	left: 26%;
+    background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+
+
+#wrongR{
+    color: red;
+}
+
+#goodR{
+    color: blue;
+}
+
+
+#adminPanel{
+    position: relative;
+    left: 80%;
+    top: -200;
+
+
+}
+
+#createE{
+    
+    background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+#acceptR{
+    
+    background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+     font-size: 14px;
+
+}
+
+
+
+
+
+
+
+

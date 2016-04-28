@@ -1,0 +1,69 @@
+#htmlEntire{
+  
+background-color: black;
+font-weight: bold;
+font-family:cursive;
+color: white;
+}
+
+
+#content img {
+    position: relative;
+    left: 42%;
+    top: 30;
+    width:250px; 
+    height: auto
+}
+
+
+
+#adminPanel{
+	position: relative;
+    left: 80%;
+    top: -200;
+
+
+}
+
+#createE{
+	
+	background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+#acceptR{
+	
+	background-color: white;
+    border: none;
+    color: black;
+    font-family:  Charcoal, sans-serif;
+    font-weight: bold;
+    text-align: center;
+     font-size: 14px;
+
+}
+
+
+#cE{
+    position: relative;
+    left: 45%;
+    top: 100;
+
+}
+
+#wrongR{
+    color: red;
+    font-size: 20px;
+}
+
+#goodR{
+    color: blue;
+    font-size: 20px;
+}
+
+

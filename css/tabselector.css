@@ -1,0 +1,72 @@
+#tabselector ul{
+
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #D8D8D8;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+#tabselector{
+
+    position: relative;
+    top: 10%;
+
+    font-size: 22;
+}
+
+
+#tabselector ul li{
+    float: left;
+    padding: 10px 20px;
+}
+
+#tabselector ul li.selected, #tabselector ul li:hover{
+    background-color: #BDBDBD; 
+    color: black;
+}
+
+#tabselector ul li:hover{
+    cursor: pointer;   
+}
+
+#tabcontent > div{
+    display: none;
+    padding: 0px;
+}
+
+#tabcontent > div.active{
+    display: block;   
+}
+
+#tabselector{
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#tab1{
+    position: relative;
+    left: 12.5%;
+}
+
+#tab2{
+    position: relative;
+    left: 25%; 
+}
+
+
+#tab3{
+    position: relative;
+    left: 37.5%;
+}
+
+#tab4{
+    position: relative;
+    left: 50%; 
+    
+}
+
+

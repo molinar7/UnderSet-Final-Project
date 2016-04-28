@@ -1,0 +1,65 @@
+<!DOCTYPE htm>
+<html id="htmlEntire">
+<head>
+<title> Requests </title>
+<meta charset+"UTF-8"/>
+<link rel="stylesheet" type="text/css" href="css/requests.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/tabselector.css"/>
+
+<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+<script type="text/javascript" src='js/requests.js'></script>
+
+
+</head> 
+<body>
+  <div id="content">
+      
+  <div><img src="images/logo.jpeg" alt="logo"></div>
+  <div id = "adminPanel"> 
+ <button id="createE" type="button">Create Event</button>
+  <button id="acceptR" type="button">Requests</button>
+
+  </div>
+ </div>
+
+
+ <div id="tabselector">
+                <ul id="tabs">
+                    <li id="tab1">News</li>
+                    <li id="tab2">Upcoming Events</li>
+                    <li id="tab3"class="selected">Event Requests</li>
+                    <li id="tab4">Logout</li>
+                </ul>
+                
+
+  </div> <!--End of div tab selector -->
+
+  <span id="choose_event">
+        <p>Select Event</p>
+
+<select id="event_input" name="event"> 
+  
+ </select>
+ 
+
+  </span>
+   <span id="contact_number">      
+   <p>Contact Number</p>
+    <input id="number_input" type="text"/> 
+    </span>
+
+        <div id="div_textarea">
+        <span id="wrongR"></span>
+        <span id="goodR"></span>
+        <p>Tell us why you want to attend</p>
+        <textarea id="textArea" rows="10" cols="80"> </textarea> <br>
+        <button id="sumbit_request" type="button">Submit</button>
+        </div>
+
+
+            
+
+</body>    
+
+</html>

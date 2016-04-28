@@ -1,0 +1,77 @@
+<!DOCTYPE htm>
+<html id="htmlEntire">
+<head>
+<title> Sign Up </title>
+<meta charset+"UTF-8"/>
+<link rel="stylesheet" type="text/css" href="css/sign.css"/>
+<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="js/signUp.js"></script>
+</head> 
+<body>
+	<div id="content">
+      
+      <div><img src="images/logo.jpeg" alt="logo"></div>
+    </div>
+<form id="registrationForm"> 
+      <fieldset> <legend>Sign up</legend>
+        
+        <div id="signID">
+        <label id="mess2"></label><br> <!--messasge 2 -->
+      <p id="testi">First Name</p>
+       
+      <input id="firstname_input" type="text"/> 
+      <br>
+      <p>Last Name</p>
+      <input id="lastname_input" type="text"/> 
+      <br>
+      <p>Username</p>
+      <input id="username2_input" type="text"/> 
+      <br>
+      <p>Email</p>
+      <input id="email_input" type="text"/> 
+      <br>
+      <p>Password</p>
+      <input id="password2_input" type="password"/> 
+      <br>
+      <p>Pasword Confirmation</p>
+      <input id="passwordC_input" type="password"/> 
+      <br>
+
+
+
+      <p>Select gender</p>
+      <span id="radioValue">
+      <input id="gender_masculine" type="radio" name="Gender" value="Male" checked="checked"/>  Male
+      <br>
+      <input id="gender_femenine" type="radio" name="Gender" value="Female"/>  Female
+    </span>
+      <br>
+      <p>Select country</p>
+
+        <select id="country_input" name="country"> <!-- coments-->
+
+          <option> Mexico</option>
+          <option> Australia</option>
+          <option> New Zealand</option>
+          <option> United States</option>
+          <option> China</option>
+          <option> Argentina</option>
+          <option> Chile</option>
+          <option> Canada</option>
+          <option> Colombia</option>
+          <option> Iceland</option>
+          <option> Germany</option>
+          <option> France</option>
+          <option> Norway</option>
+          <option> England</option>
+          <option> Peru</option>
+      </select>
+      <br>
+      <br>
+      <button id="submit_button" type="button">Submit</button>
+          </div>
+      </fieldset>
+    </form>
+</body>    
+
+</html>
